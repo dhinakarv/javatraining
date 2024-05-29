@@ -1,10 +1,8 @@
 package com.ice.controller.demo;
 
-import org.apache.logging.log4j.Logger;
 
 public class Calculator {
 
-    //Logger log = Logger.class();
     public static void main(String[] args) {
         Calculator calcObject  = new Calculator();
         int output = 0;
@@ -30,7 +28,6 @@ public class Calculator {
 
     //hashcode
     //final variables
-    final int i = 100;
     //final class
     //final methods
     //mutable
