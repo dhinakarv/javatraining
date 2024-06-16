@@ -6,6 +6,9 @@ public class JavaArray {
     public static void main(String[] args) {
         int a[]= {1,2,3,4,5};
         JavaArray j1 = new JavaArray();
+        a[4]=500;
+        //a[6]=8;
+
         System.out.println("Sum:"+j1.sum(a));
 
         for (int i=0; i< a.length;i++){
