@@ -18,7 +18,7 @@ public class FirstNonRepeatString {
         }
         System.out.println(hm);
         for (Map.Entry<Character, Integer> e : hm.entrySet()) {
-            if (e.getValue() == 1) {
+            if (e.getValue() > 1) {
                 System.out.println("The first Non Repeating Character in String:" + e.getKey());
                 break;
             }

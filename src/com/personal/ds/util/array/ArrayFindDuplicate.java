@@ -1,4 +1,4 @@
-package com.personal.ds.util;
+package com.personal.ds.util.array;
 
 import java.util.HashMap;
 

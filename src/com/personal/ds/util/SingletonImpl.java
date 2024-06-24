@@ -1,13 +1,17 @@
 package com.personal.ds.util;
- class Singleton {
-    private static Singleton OBJECT = null;
-    private Singleton(){
-    }
 
-    public static synchronized Singleton getInstance(){
-        if(OBJECT ==null)
-        OBJECT= new Singleton();
-        return OBJECT;
+class Singleton{
+    private static Singleton s1 = null;
+    private Singleton(){}
+
+    public static Singleton getInstance(){
+        synchronized(Singleton.class){
+            if(s1==null){
+                s1 = new Singleton();
+            }
+        }
+
+        return s1;
     }
 }
 

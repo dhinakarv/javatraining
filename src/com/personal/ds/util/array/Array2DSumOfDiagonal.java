@@ -1,4 +1,4 @@
-package com.personal.ds.util;
+package com.personal.ds.util.array;
 
 public class Array2DSumOfDiagonal {
     public static void main(String[] args) {
