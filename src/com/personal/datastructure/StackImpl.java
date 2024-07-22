@@ -63,9 +63,5 @@ public class StackImpl {
         s.pop();
         System.out.println("After 1 pop");
         s.printElements();
-
-
-
-
     }
 }
